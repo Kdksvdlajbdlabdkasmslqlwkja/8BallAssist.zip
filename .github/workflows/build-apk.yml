@@ -35,7 +35,7 @@ jobs:
       - name: Extract project
         run: |
           mkdir extracted
-          unzip -q 8BallAssist.zip -d extracted
+          unzip -q 8BallAssist-Ready.zip -d extracted
           PROJECT_DIR="$(find extracted -name settings.gradle.kts -print -quit | xargs dirname)"
           test -n "$PROJECT_DIR"
           echo "PROJECT_DIR=$PROJECT_DIR" >> "$GITHUB_ENV"
