@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - '8BallAssist.zip'
+      - '8BallAssist-Ready.zip'
       - '.github/workflows/build-apk.yml'
 
 permissions:
